@@ -12,7 +12,4 @@
     <type name="Magento\Backend\Block\Widget\Button\Toolbar">
         <plugin name="Magegeeks_AdminSaleOrderEditButton::pluginBefore" type="Magegeeks\AdminSaleOrderEditButton\Plugin\PluginBefore" />
     </type>
-    <type name="\Magento\Sales\Block\Adminhtml\Order\Create">
-        <plugin name="Magegeeks_AdminSaleOrderEditButton::pluginBeforeView" type="Magegeeks\AdminSaleOrderEditButton\Plugin\PluginBeforeView" />
-    </type>
 </config>

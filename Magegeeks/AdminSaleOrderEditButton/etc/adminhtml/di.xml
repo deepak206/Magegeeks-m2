@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mage geeks
+ *
+ * @category  Magegeeks
+ * @package   Magegeeks_AdminSaleOrderEditButton
+ * @author    Magegeeks <magegeeks@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Backend\Block\Widget\Button\Toolbar">
+        <plugin name="Magegeeks_AdminSaleOrderEditButton::pluginBefore" type="Magegeeks\AdminSaleOrderEditButton\Plugin\PluginBefore" />
+    </type>
+    <type name="\Magento\Sales\Block\Adminhtml\Order\Create">
+        <plugin name="Magegeeks_AdminSaleOrderEditButton::pluginBeforeView" type="Magegeeks\AdminSaleOrderEditButton\Plugin\PluginBeforeView" />
+    </type>
+</config>

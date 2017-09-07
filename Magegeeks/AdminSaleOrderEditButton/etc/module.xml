@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mage geeks
+ *
+ * @category  Magegeeks
+ * @package   Magegeeks_AdminSaleOrderEditButton
+ * @author    Magegeeks <magegeeks@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Magegeeks_AdminSaleOrderEditButton" setup_version="0.0.1">
+        <sequence>
+            <module name="Magento_Email"/>
+        </sequence>
+    </module>
+</config>

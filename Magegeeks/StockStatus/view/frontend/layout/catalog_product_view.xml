@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mage geeks
+ *
+ * @category  Magegeeks
+ * @package   Magegeeks_StockStatus
+ * @author    Magegeeks <magegeeks@gmail.com>
+ */
+-->
+<body>
+    <referenceContainer name="product.info.social">
+        <block class="Magegeeks\StockStatus\Block\Product\View\Stock"
+            name="product.view.extra"
+            template="Magegeeks_StockStatus::product/view/stock.phtml"
+            after="-">
+        </block>
+    </referenceContainer>
+</body>

@@ -1,0 +1,14 @@
+<?php
+/**
+ * Mage geeks
+ *
+ * @category  Magegeeks
+ * @package   Magegeeks_StockStatus
+ * @author    Magegeeks <magegeeks@gmail.com>
+ */
+?>
+<?php /* @var $block \Magegeeks\StockStatus\Block\Product\View\Stock */?>
+<?php $_product = $block->getProduct();
+	$_status = $block->getProductStatus();
+?>
+<h3><?php echo 'My Product Name Is: ' . $_product->getName(); ?></h3>
